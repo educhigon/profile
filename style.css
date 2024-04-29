@@ -1,6 +1,6 @@
   body {
     background-color: rgba(156, 192, 244, 0.701);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat';
     color: rgba(75, 75, 75, 0.775);
     font-size: 1rem;
     line-height: 10px
@@ -21,7 +21,7 @@
   }
 
   .container {
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
     text-align: center;
   }
@@ -50,9 +50,15 @@
     border-radius: 4px;
     background-color: rgba(240, 248, 255, 0.436);
     box-shadow: 2px 2px 5px gray;
-    padding: 5px;
+    padding: 15px;
     margin: 10px;
     line-height: 20px;
+    h1 {
+      line-height: 1.8;
+      text-align: left;
+      margin-left: 10px;
+
+    }
   }
   .links {
     text-align: center;
